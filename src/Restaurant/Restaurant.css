@@ -1,0 +1,30 @@
+.menu-tab{
+    color:black!important;
+}
+.bg-grey{
+    background-color: gray;
+    color: white;
+}
+.nav-link.active{
+    background-color: gray!important;
+    color:white!important;
+
+}
+.counter{
+    margin-left: 5px;
+}
+.counter i{
+    font-size:60%;
+}
+.count{
+    width: 20px;  
+    display:inline-block;
+    text-align: center;
+    font-size: 90%;
+}
+.btn-counter{
+    background-color: white;
+    padding-top:0;
+    padding-bottom:2px;
+}
+

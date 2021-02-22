@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
+import { BrowserRouter } from "react-router-dom";
 import App from './App';
+import AppRestaurant from "./AppRestaurant"
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <AppRestaurant />
+    </BrowserRouter>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
